@@ -83,7 +83,7 @@ export const projects = [
             "Utilized Google Geocoding API in order to find a place address with location coordinates.",
             "Real-Time Push Notification messages using Firebase (FCM).",
         ],
-        link: "https://github.com/Soumik43/Uber-clone",
+        link: `Visit <a href="https://github.com/Soumik43/Uber-clone" class="href__visit__link" target="_blank">Uber git repo</a>`,
     },
     {
         title: "Corona Virus Tracking Application",
@@ -91,7 +91,7 @@ export const projects = [
         points: [
             "Built a Corona Virus tracking application using Flutter and REST API with MVVM application architecture.",
         ],
-        link: "https://github.com/Soumik43/Coronavirus-tracking-application",
+        link: `Visit <a href="https://github.com/Soumik43/Coronavirus-tracking-application" class="href__visit__link" target="_blank">Corona virus application git repo</a>`,
     },
     {
         title: "Chat application",
@@ -99,6 +99,6 @@ export const projects = [
         points: [
             "Developed a chat application using Flutter and utilized Firebase authentication, database and storage.",
         ],
-        link: "https://github.com/Soumik43/Chat-application-Flutter",
+        link: `Visit <a href="https://github.com/Soumik43/Coronavirus-tracking-application" class="href__visit__link" target="_blank" >Chat application git repo</a >`,
     },
 ];

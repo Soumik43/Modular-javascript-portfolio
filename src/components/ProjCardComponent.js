@@ -1,9 +1,9 @@
-export class ExpCardComponent {
+export class ProjCardComponent {
     constructor(exp) {
         this.exp = exp;
     }
     render() {
-        const col = document.createElement("div");
+        const proj = document.createElement("div");
         const heading = document.createElement("p");
         const techStack = document.createElement("p");
         const ulList = document.createElement("ul");
@@ -11,10 +11,10 @@ export class ExpCardComponent {
 
         visitLink.classList.add("visit__internship__link");
         heading.classList.add("experience--heading");
-        col.classList.add("experience--col");
+        proj.classList.add("project");
         techStack.classList.add("tech--stack");
 
-        heading.innerHTML = this.exp.company;
+        heading.innerText = `${this.exp.title}`;
         visitLink.innerHTML = this.exp.link;
         techStack.innerHTML = this.exp.techstack;
         this.exp.points.forEach((exp) => {
@@ -23,11 +23,11 @@ export class ExpCardComponent {
             ulList.appendChild(expLi);
         });
 
-        col.appendChild(heading);
-        col.appendChild(techStack);
-        col.appendChild(ulList);
-        col.appendChild(visitLink);
+        proj.appendChild(heading);
+        proj.appendChild(techStack);
+        proj.appendChild(ulList);
+        proj.appendChild(visitLink);
 
-        return col;
+        return proj;
     }
 }
