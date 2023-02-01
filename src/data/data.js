@@ -10,8 +10,8 @@ export const about = {
 
 export const experience = [
     {
-        company: "Ombre",
-        position: "SDE Intern",
+        name: "ombre",
+        company: `Ombre - <span class="experience--position">SDE Intern</span>`,
         techstack: "Flutter, Firebase, Node.js, AWS, Git",
         points: [
             "Developed an image compression cloud function in NodeJS which helped in reducing the image sizes for our mobile application by 90% hence reducing loading time by 57% for our Dashboard (Homepage) images.",
@@ -19,12 +19,12 @@ export const experience = [
             "Migration of codebase from Flutter V1 to V2 hence improving the stability of mobile applications by introducing null-safety across platforms and devices.",
             "Remodeled the Dashboard UI, and revamped the User-Profile page UI, which decreased the page navigation by removing a page, hence improving the UX performance.",
         ],
-        link: "https://liveombre.com/",
+        link: `Visit <a href="https://liveombre.com/" class="href__visit__link" target="_blank">Ombre</a>`,
         imageLink: "assets/images/ombre.png",
     },
     {
-        company: "BottomStreet",
-        position: "Flutter Developer Intern",
+        name: "bottomstreet",
+        company: `BottomStreet - <span class="experience--position">Flutter Developer Intern</span>`,
         techstack: "Flutter, Firebase, RestAPI, Git",
         points: [
             "Integrated REST API, and Firebase for authentication, storage, and testing purposes, and applied Remote state-management (Riverpod) using Flutter.",
@@ -33,7 +33,7 @@ export const experience = [
             "Worked on payment portal using Razorpay (Flutter).",
             "Integrated more than 20 REST API’s in Flutter by creating data model classes to parse data for the client side.",
         ],
-        link: "https://www.bottomstreet.com/",
+        link: `Visit <a href="https://www.bottomstreet.com/" class="href__visit__link" target="_blank">BottomStreet</a>`,
         imageLink: "assets/images/bottomstreet.avif",
     },
 ];
