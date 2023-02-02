@@ -102,3 +102,10 @@ export const projects = [
         link: `Visit <a href="https://github.com/Soumik43/Coronavirus-tracking-application" class="href__visit__link" target="_blank" >Chat application git repo</a >`,
     },
 ];
+
+export const footer = [
+    { data: `<i class="fa fa-linkedin" style="font-size: 2rem"></i>`, link: "https://www.linkedin.com/in/soumik43/" },
+    { data: `<i class="fa fa-github" style="font-size: 2rem"></i>`, link: "https://github.com/Soumik43" },
+    { data: `<i class="fa fa-twitter" style="font-size: 2rem"></i>`, link: "https://twitter.com/Soumo43" },
+    { data: `<i class="fa fa-instagram" style="font-size: 2rem"></i>`, link: "https://www.instagram.com/s_oumik/" },
+];

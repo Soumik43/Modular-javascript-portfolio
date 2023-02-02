@@ -1,5 +1,5 @@
 import { MountComponent } from "./MountComponent.js";
-import { projects } from "../data/data.js";
+import { projects } from "../../data/data.js";
 import { ProjCardComponent } from "./ProjCardComponent.js";
 
 export class Projects extends MountComponent {

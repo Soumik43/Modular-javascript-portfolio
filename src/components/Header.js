@@ -1,6 +1,6 @@
 import { MountComponent } from "./MountComponent.js";
 import AnchorImage from "./AnchorImage.js";
-import { navbarData } from "../data/data.js";
+import { navbarData } from "../../data/data.js";
 
 export class Header extends MountComponent {
     render() {

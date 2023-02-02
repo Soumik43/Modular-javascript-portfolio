@@ -1,4 +1,4 @@
-import { about } from "../data/data.js";
+import { about } from "../../data/data.js";
 import { MountComponent } from "./MountComponent.js";
 
 export class About extends MountComponent {

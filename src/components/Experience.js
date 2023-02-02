@@ -1,5 +1,5 @@
 import { MountComponent } from "./MountComponent.js";
-import { experience } from "../data/data.js";
+import { experience } from "../../data/data.js";
 import { ExpCardComponent } from "./ExpCardComponent.js";
 
 export class Experience extends MountComponent {
