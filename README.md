@@ -1,5 +1,7 @@
 ## Modular JavaScript Portfolio
 
+Live link can be found here -> (Portfolio)[https://soumik43.github.io/Modular-javascript-portfolio/]
+
 Modularising your JavaScript code can be done by splitting code over multiple files and using JavaScript modules to share functionalities across different files.
 
 Here separating the code from content of your personal portfolio website. The data for website will be stored in form of .json files.
